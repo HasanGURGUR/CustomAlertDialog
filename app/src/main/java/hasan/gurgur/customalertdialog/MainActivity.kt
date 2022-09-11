@@ -18,8 +18,8 @@ class MainActivity : AppCompatActivity() {
         binding.showDialog.setOnClickListener {
             this.showDialog(
                 title = "WelcomeAlertdialog",
-                description = "Custom Alert Dialog Example",
-                icon = R.drawable.ic_baseline_done_outline_24,
+                description = getString(R.string.desc),
+                icon = R.drawable.ic_baseline_account_balance_24,
                 btn_pos = "accept",
                 btn_neg = "cancel"
             )
